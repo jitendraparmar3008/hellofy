@@ -1,0 +1,40 @@
+{
+  "name": "hellofy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5001",
+    "build": "next build",
+    "start": "next start -p 5001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.3.1",
+    "@next/eslint-plugin-next": "^15.1.0",
+    "@rsuite/icons": "latest",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "libphonenumber-js": "^1.11.17",
+    "next": "^13.5.6",
+    "next-themes": "^0.2.1",
+    "prettier-eslint": "^16.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal-video": "^2.0.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.21.0",
+    "react-toastify": "^10.0.6",
+    "rsuite": "latest"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.3.3"
+  }
+}

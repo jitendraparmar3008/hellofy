@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Let's Try",
+    "description": "Ideal for i",
+    "currency": "₹",
+    "pirce": "5000",
+    "validity": "Month",
+    "status": false,
+    "features": [
+      {
+        "feature": "Wallet Credits",
+        "value": 1000
+      },
+      {
+        "feature": "User",
+        "value": 2
+      },
+      {
+        "feature": "Custom Attributes ",
+        "value": "Not included"
+      },
+      {
+        "feature": "Contact",
+        "value": "Unlimited"
+      },
+      {
+        "feature": "Chatbot Message",
+        "value": "0.05 / message"
+      },
+      {
+        "feature": "Send Form Message",
+        "value": "0.1 / message"
+      },
+      {
+        "feature": "APIs",
+        "value": "Not included"
+      },
+      {
+        "feature": "Create Role",
+        "value": "not included"
+      },
+      {
+        "feature": "Support",
+        "value": "Email"
+      },
+      {
+        "feature": "Chatbot Connections",
+        "value": "Not included"
+      },
+      {
+        "feature": "Channels",
+        "value": 1
+      },
+      {
+        "feature": "Tags",
+        "value": "unlimited"
+      },
+      {
+        "feature": "Marketing Message",
+        "value": "0.8 / message"
+      },
+      {
+        "feature": "Utility Message",
+        "value": "0.4 / message"
+      },
+      {
+        "feature": "Authentication Message",
+        "value": "0.5 / message"
+      }
+    ]
+  },
+  {
+    "title": "Growth",
+    "description": "Ideal for individuals who need quick access to basic features. Ideal for individuals who need quick access to basic features.Ideal for individuals who need quick access to basic features. Ideal for individuals who need quick access to basic features.",
+    "currency": "₹",
+    "pirce": "10000",
+    "validity": "Month",
+    "status": true,
+    "features": [
+      {
+        "feature": "Wallet Credits",
+        "value": 5000
+      },
+      {
+        "feature": "User",
+        "value": 5
+      },
+      {
+        "feature": "Custom Attributes ",
+        "value": "Upto 5"
+      },
+      {
+        "feature": "Contact",
+        "value": "Unlimited"
+      },
+      {
+        "feature": "Chatbot Message",
+        "value": "0.04 / message"
+      },
+      {
+        "feature": "Send Form Message",
+        "value": "0.08 / message"
+      },
+      {
+        "feature": "APIs",
+        "value": "included"
+      },
+      {
+        "feature": "Create Role",
+        "value": "included"
+      },
+      {
+        "feature": "Support",
+        "value": "Email/Whatsapp"
+      },
+      {
+        "feature": "Chatbot Connections",
+        "value": "Not included"
+      },
+      {
+        "feature": "Channels",
+        "value": 1
+      },
+      {
+        "feature": "Tags",
+        "value": "Unlimited"
+      },
+      {
+        "feature": "Marketing Message",
+        "value": "0.78 / message"
+      },
+      {
+        "feature": "Utility Message",
+        "value": "0.35 / message"
+      },
+      {
+        "feature": "Authentication Message",
+        "value": "0.4 / message"
+      }
+    ]
+  },
+  {
+    "title": "Business",
+    "description": "Ideal for individuals who need quick access to basic features.",
+    "currency": "₹",
+    "pirce": "25000",
+    "validity": "Month",
+    "status": false,
+    "features": [
+      {
+        "feature": "Wallet Credits",
+        "value": 15000
+      },
+      {
+        "feature": "User",
+        "value": 10
+      },
+      {
+        "feature": "Custom Attributes ",
+        "value": "Upto 20"
+      },
+      {
+        "feature": "Contact",
+        "value": "Unlimited"
+      },
+      {
+        "feature": "Chatbot Message",
+        "value": "0.03 / message"
+      },
+      {
+        "feature": "Send Form Message",
+        "value": "0.07 / message"
+      },
+      {
+        "feature": "APIs",
+        "value": "included"
+      },
+      {
+        "feature": "Create Role",
+        "value": "included"
+      },
+      {
+        "feature": "Support",
+        "value": "Email/Whatsapp/ Dedicated Manager"
+      },
+      {
+        "feature": "Chatbot Connections",
+        "value": "included"
+      },
+      {
+        "feature": "Channels",
+        "value": 2
+      },
+      {
+        "feature": "Tags",
+        "value": "Unlimited"
+      },
+      {
+        "feature": "Marketing Message",
+        "value": "0.75 / message"
+      },
+      {
+        "feature": "Utility Message",
+        "value": "0.32 / message"
+      },
+      {
+        "feature": "Authentication Message",
+        "value": "0.35 / message"
+      }
+    ]
+  }
+]
