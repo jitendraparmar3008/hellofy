@@ -19,28 +19,47 @@ const AboutPage = () => {
       /> */}
 
       <div className="w-full my-[100px] ">
-        <div className="container mt-28">
-          <Image
+        <div className="container 2xl:py-16">
+          <div className="w-full">
+            <div className="lg:px-10 px-4 max-w-fit lg:h-[44px] h-[24px] text-center rounded-[64px] bg-lightcyan text-primary border border-white lg:text-sm text-xs flex items-center justify-center mx-auto">
+              Our Goal
+            </div>
+            <h2 className="text-dark text-center font-bold text-2xl xl:text-3xl 2xl:text-4xl 3xl:text-64 3xl:leading-[60px]">
+              Revolutionizing business communication with the latest
+              innovations.
+            </h2>
+          </div>
+          {/* <Image
             src="/images/about/about_title.png"
             height={228}
             width={1411}
             alt="about_title"
             className="mx-auto mt-8"
-          />
+          /> */}
           <div className="mx-auto text-center 2xl:w-[1160px] w-full mt-8 xl:mt-16">
             <p className="text-dark xl:text-3xl text-base mb-5">
-              Hellofy is the AI-powered Omnichannel Conversation Suite designed
-              for customer engagement. The all-in-one Hellofy platform enables
-              seamless, personalized customer journeys. Hellofy is committed to
-              transforming the future of communication by helping companies
-              center their workflows around impactful conversations.
+              Hellofy is an AI-driven Omnichannel Conversation Suite designed to
+              elevate customer engagement. This all-in-one platform enables
+              businesses to craft personalized customer journeys with ease.
+              Committed to redefining communication, Hellofy helps organizations
+              optimize workflows around impactful conversations.
             </p>
             <p className="text-dark xl:text-3xl text-base">
-              From marketing and sales to support teams, Hellofy enhances
-              business operations with advanced conversational AI capabilities.
-              By automating routine tasks, refining customer interactions, and
-              delivering exceptional support, this customer-first solution
-              enables businesses to reach new levels of scalability and growth.
+              From marketing and sales to customer support, Hellofy enhances
+              business efficiency with powerful conversational AI. By automating
+              routine processes, improving customer interactions, and
+              providingHellofy is an AI-driven Omnichannel Conversation Suite
+              designed to elevate customer engagement. This all-in-one platform
+              enables businesses to craft personalized customer journeys with
+              ease. Committed to redefining communication, Hellofy helps
+              organizations optimize workflows around impactful conversations.
+            </p>
+            <p className="text-dark xl:text-3xl text-base">
+              From marketing and sales to customer support, Hellofy enhances
+              business efficiency with powerful conversational AI. By automating
+              routine processes, improving customer interactions, and providing
+              exceptional support, this customer-focused solution fuels
+              scalability and accelerates business success.
             </p>
           </div>
           {/* <h1 className=" text-2xl font-bold text-black dark:text-white sm:text-3xl mt-[100px] mb-[100px] text-center">Our Team</h1>

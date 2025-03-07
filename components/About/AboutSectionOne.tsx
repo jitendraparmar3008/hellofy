@@ -140,7 +140,7 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="max-w-[1421px] mx-auto">
       <h2 className="text-4xl 2xl:text-[46px] 2xl:leading-[65px] text-dark font-medium text-center mb-11">
-        Features designed to{" "}
+        Features designed to
         <span className="text-primary ml-1.5">delight</span> both your customers
         and your team.
       </h2>

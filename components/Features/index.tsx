@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <section id="about" className="max-w-[1421px] mx-auto pt-4 lg:pt-[88px]">
       <h2 className="text-2xl px-3 lg:text-4xl 2xl:text-[46px] 2xl:leading-[65px] text-dark font-medium text-center mb-11">
-        Features designed to{" "}
+        Features designed to
         <span className="text-primary ml-1.5">delight</span> both your customers
         and your team.
       </h2>

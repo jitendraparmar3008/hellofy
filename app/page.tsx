@@ -19,9 +19,9 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Services />
+      {/* <Services /> */}
 
-      <OorderInvoiceView />
+      {/* <OorderInvoiceView /> */}
       <GetInTouchWithUs />
       {/* <Contact /> */}
     </>

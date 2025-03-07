@@ -126,21 +126,21 @@ const featuresData: Feature[] = [
     height: 425,
   },
   {
-    title: "Form Builder",
-    subTitle: "Create forms that drive insights and action.",
+    title: "SmartForm Builder",
+    subTitle: "Create forms that deliver valuable feedback and drive results.",
     description: (
       <>
         <p>
-          <span className="text-dark">✔</span> Create customized forms to
-          collect essential customer data effortlessly.
+          <span className="text-dark">✔</span> Build personalized forms to
+          gather vital customer insights effortlessly.
         </p>
         <p>
-          <span className="text-dark">✔</span> Use forms for feedback, surveys,
-          and lead generation to optimize engagement.
+          <span className="text-dark">✔</span> Utilize forms for surveys,
+          feedback, and lead capture to enhance engagement.
         </p>
         <p>
-          <span className="text-dark">✔</span> Integrate responses directly
-          into your CRM for seamless data management.
+          <span className="text-dark">✔</span> Seamlessly integrate responses
+          into your CRM for efficient data management.
         </p>
       </>
     ),
@@ -154,21 +154,22 @@ const featuresData: Feature[] = [
   },
 
   {
-    title: "Template Management",
-    subTitle: "Streamline messaging with pre-approved templates.",
+    title: "Template Builder",
+    subTitle:
+      "Optimize communication with ready-to-use templates for faster and more consistent messaging.",
     description: (
       <>
         <p>
-          <span className="text-dark">✔</span> Simplify communication with
-          pre-approved message templates.
+          <span className="text-dark">✔</span> Enhance communication with
+          pre-approved messaging templates.
         </p>
         <p>
-          <span className="text-dark">✔</span> Customize templates for various
-          use cases, from notifications to updates.
+          <span className="text-dark">✔</span> Tailor templates for different
+          purposes, from reminders to announcements.
         </p>
         <p>
-          <span className="text-dark">✔</span> Ensure quick approvals and
-          compliance with WhatsApp guidelines.
+          <span className="text-dark">✔</span> Ensure swift approvals while
+          adhering to WhatsApp regulations.
         </p>
       </>
     ),

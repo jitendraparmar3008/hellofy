@@ -10,25 +10,26 @@ const HeroInboxFeature = () => {
     {
       id: 1,
       icon: HeroCardIcon,
-      title: "Faster Responses to Messages",
-      description: "Quickly access and respond to messages with custom views",
+      title: "Quicker replies to messages.",
+      description:
+        "Instantly access and reply to messages with personalized views.",
       borderColor: "border-yellow_600",
       iconColor: "fill-yellow_700",
     },
     {
       id: 2,
       icon: HeroCardIcon,
-      title: "Less Time Spent Distributing Work",
-      description: "Automatically filter and assign conversations",
+      title: "Reduce time spent on task distribution.",
+      description: "Effortlessly filter and route conversations automatically.",
       borderColor: "border-aero_blue",
       iconColor: "fill-aero_blue",
     },
     {
       id: 3,
       icon: HeroCardIcon,
-      title: "Time Saved Per Teammate Every Month",
+      title: "Save valuable hours per teammate each month.",
       description:
-        "Streamline workflows and save significant time for each team member every month",
+        "Optimize workflows and free up valuable time for every team member each month.",
       borderColor: "border-pale_cyan",
       iconColor: "fill-pale_cyan",
     },
@@ -39,13 +40,13 @@ const HeroInboxFeature = () => {
         <div className="max-w-[1490px] w-full mx-auto h-full">
           <div className="w-full text-center flex flex-col h-full">
             <div className="w-full">
-              <FeatureTitleTag text="Team Inbox" />
+              <FeatureTitleTag text="Conversation Center" />
               <h2 className="3xl:text-64 md:text-5xl text-4xl text-white text-center font-bold 3xl:leading-[80px] font-lexend">
-                Boost Efficiency and Never Miss a Message with Powerful{" "}
-                <span className="text-erin">WhatsApp</span> Inbox Management
+                Boost Productivity and Stay on Top with Advanced
+                <span className="text-erin"> WhatsApp</span> Conversation Center
               </h2>
               <p className="text-white text-xl md:text-3xl text-center mt-3">
-                Enhance visibility and responsiveness with Hellofy
+                Improve oversight and responsiveness with AiInbox.
               </p>
             </div>
             <GateStartedInput />

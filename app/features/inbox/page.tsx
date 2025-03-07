@@ -14,10 +14,10 @@ const InboxFeatures = () => {
       <HeroInboxFeature />
       <div className="max-w-[1420px] mx-auto pb-32">
         <PointImgSection
-          title="Personal Touch in Every Interaction"
+          title="Authentic Engagement in Every Interaction"
           points={[
-            "Use Contact Profiles in Inbox to create tailored experiences for every customer.",
-            "Access full conversation history across all channels in a single view, keeping every employee up-to-date and ready to deliver personalized service.",
+            "Utilize Contact Profiles in the Inbox to deliver customized experiences for each customer.",
+            "Access a unified conversation history across all channels, keeping your team informed and prepared to offer top-notch service.",
           ]}
           imgSrc="/images/inbox-feature/InteractionImg.svg"
           imgAlt="InteractionImg"
@@ -28,12 +28,12 @@ const InboxFeatures = () => {
           className="lg:py-24 py-10"
         />
         <PointImgSection
-          title="Advanced Template Management"
+          title="Smart Template Builder"
           points={[
-            "Transform your most effective and repetitive messages into templates you can personalize and share with your team.",
-            "Save hours on copy-pasting and editing by inserting templates in seconds.",
-            "Utilize advanced features such as variables to include recipients' names or custom variables like the recipient’s business name.",
-            "Elevate productivity with sequences by creating smart message workflows and multi-stage campaigns in a few clicks using templates for WhatsApp CRM.",
+            "Turn your most impactful and frequently used messages into customizable templates for easy team sharing.",
+            "Eliminate time-consuming copy-pasting by inserting templates instantly.",
+            "Leverage advanced features like variables to personalize messages with recipient names or business details.",
+            "Boost efficiency with sequences by designing smart message workflows and multi-stage campaigns in just a few clicks using WhatsApp CRM templates.",
           ]}
           imgSrc="/images/inbox-feature/TemplateManagementImg.svg"
           imgAlt="TemplateManagementImg"
@@ -44,11 +44,11 @@ const InboxFeatures = () => {
           className="lg:pb-24 pb-10"
         />
         <PointImgSection
-          title="Streamline Your Workflow to Boost Marketing"
+          title="Simplify Your Process to Enhance Marketing"
           points={[
-            "Eliminate the need for spreadsheets and save your team hours with a modern, actionable CRM.",
-            "Efficiently search, organize customers by important attributes, and manage conversations or initiate payments from one convenient tool.",
-            "Personalizing even one attribute can make your text marketing twice as effective, doubling customer response and revenue with each send.",
+            "Say goodbye to spreadsheets and save hours with a smart, action-driven CRM.",
+            "Quickly search, categorize customers by key attributes, manage conversations, and process payments—all from one powerful tool.",
+            "Personalizing just one attribute can significantly boost your text marketing, doubling customer engagement and revenue with every send.",
           ]}
           imgSrc="/images/inbox-feature/BoostMarketingImg.png"
           imgAlt="BoostMarketingImg"
@@ -59,7 +59,7 @@ const InboxFeatures = () => {
           className="lg:pb-24 pb-10"
         />
         <PointImgSection
-          title="Clear Ownership and Accountablity"
+          title="Defined Responsibility and Transparency"
           points={[
             "Automatically route messages to the right team and person, ensuring nothing is missed and customers receive prompt answers.",
             "Assign incoming messages to your teammates with a single click or through simple @mentions.",
@@ -73,12 +73,12 @@ const InboxFeatures = () => {
           className="lg:pb-24 pb-10"
         />
         <PointImgSection
-          title="Write Unique Message Through AI Rewrite"
+          title="Generate Distinctive Messages with AI-Powered Rewriting"
           points={[
-            "Craft personalized responses based on actual customer context and edit generated text before sending for a personal touch.",
-            "Enjoy grammatically correct, professional messages that include relevant customer information.",
-            "Ensure your brand’s tone and voice remain consistent across all responses.",
-            "Utilize natural language processing to ensure high-quality, helpful, and accurate communications.",
+            "Create tailored responses using real customer context, with the flexibility to edit before sending for a personal touch.",
+            "Send professional, grammatically flawless messages enriched with relevant customer details.",
+            "Maintain a consistent brand tone and voice across all communications.",
+            "Leverage natural language processing for precise, high-quality, and engaging interactions.",
           ]}
           imgSrc="/images/inbox-feature/AIRewriteImg.gif"
           imgAlt="AIRewriteImg"
