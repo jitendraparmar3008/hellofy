@@ -38,7 +38,7 @@ const HeroFeatureChatbot = () => {
   ];
   return (
     <>
-      <div className="w-full bg-gradient-feature-3 h-auto xl:h-[calc(100vh-45px)] 2xl:h-[calc(100vh-45px)] p-10 pt-[130px] lg:pt-[210px] relative">
+      <div className="w-full bg-gradient-feature-3 h-auto xl:h-[890px] p-10 pt-[130px] lg:pt-[210px] relative">
         <div className="max-w-[1490px] w-full mx-auto h-full">
           <div className="w-full text-center flex flex-col h-full">
             <div className="w-full">

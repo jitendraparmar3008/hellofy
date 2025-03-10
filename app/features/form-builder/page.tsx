@@ -14,11 +14,11 @@ const FormBuilder = () => {
       <HeroFeatureFormbuilder />
       <div className="max-w-[1420px] mx-auto pb-32">
         <PointImgSection
-          title="Build Forms Anywhere, Anytime"
+          title="Create Forms Easily, Anytime, Anywhere"
           points={[
-            "Create and manage forms from any device, with seamless online and offline functionality.",
-            "Collaborate with your team in real-time, consolidating data efficiently.",
-            "Access all the powerful features of form builder, whether you're in the office or on the go.",
+            "Design and control forms effortlessly from any device, with smooth online and offline access.",
+            "Work with your team in real-time, streamlining data collection.",
+            "Enjoy the full capabilities of the form builder, whether at your desk or on the move.",
           ]}
           imgSrc="/images/formbuilder-feature/sectionImg01.svg"
           imgAlt="InteractionImg"
@@ -30,10 +30,10 @@ const FormBuilder = () => {
           titleClass="whitespace-nowrap"
         />
         <PointImgSection
-          title="Flexible Form Builder"
+          title="Adaptive Form Builder"
           points={[
-            "Customize enterprise forms effortlessly with a flexible builder.",
-            "Adapt to ever-changing needs, ensuring forms evolve seamlessly with business processes.",
+            "Effortlessly tailor enterprise forms with a versatile builder.",
+            "Stay ahead of changing needs, ensuring forms adapt seamlessly to evolving business processes.",
           ]}
           imgSrc="/images/formbuilder-feature/sectionImg02.svg"
           imgAlt="TemplateManagementImg"
@@ -45,10 +45,10 @@ const FormBuilder = () => {
           titleClass="whitespace-nowrap"
         />
         <PointImgSection
-          title="Capture Events and Answers"
+          title="Record Responses and Track Events"
           points={[
-            "Embed forms within your website to capture events and answers.",
-            "See answer payload updates in real-time by adding your answer to the form.",
+            "Integrate forms into your website to capture events and responses seamlessly.",
+            "Track real-time answer updates by submitting responses directly within the form.",
           ]}
           imgSrc="/images/formbuilder-feature/sectionImg03.svg"
           imgAlt="BoostMarketingImg"
@@ -60,10 +60,10 @@ const FormBuilder = () => {
           titleClass="whitespace-nowrap"
         />
         <PointImgSection
-          title="Effortless Form Management with AI No-Code Builder"
+          title="Seamless Form Management with an AI-Powered No-Code Builder"
           points={[
-            "No-code form builder allows updates without coding or technical jargon.",
-            "Take control of your content and update it without developer help, with guardrails in place to prevent disruptions.",
+            "The no-code form builder enables effortless updates without coding or technical complexity.",
+            "Maintain full control over your content and make changes independently, with built-in safeguards to ensure stability.",
           ]}
           imgSrc="/images/formbuilder-feature/sectionImg04.svg"
           imgAlt="AccountablityImg"
@@ -74,10 +74,10 @@ const FormBuilder = () => {
           className="lg:pb-24 pb-10"
         />
         <PointImgSection
-          title="Automations and Organization Tools"
+          title="Automation and Workflow Management Tools"
           points={[
-            "Manage multiple forms with tags, filters, and a content library.",
-            "Seamlessly reuse content across forms for efficient management.",
+            "Organize and manage multiple forms with tags, filters, and a centralized content library.",
+            "Effortlessly reuse content across forms for streamlined efficiency.",
           ]}
           imgSrc="/images/formbuilder-feature/sectionImg05.svg"
           imgAlt="AIRewriteImg"

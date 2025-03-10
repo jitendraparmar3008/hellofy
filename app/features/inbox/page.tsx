@@ -89,11 +89,11 @@ const InboxFeatures = () => {
           className="lg:pb-24 pb-10"
         />
         <PointImgSection
-          title="Filtered Views"
+          title="Smart Views"
           points={[
-            "Utilize pre-defined, filtered workspace views to quickly find what you need.",
-            "Get a holistic view of all cards assigned to you across all workspaces with a single click, helping you stay on top of your tasks.",
-            "Visualize each workspace with the most common filters available such as Assigned to, Me, Drafts, Sent, Unread, Snoozed, Pending, Closed",
+            "Access pre-defined, filtered workspace views for quick and easy navigation.",
+            "Stay organized with a single-click overview of all cards assigned to you across multiple workspaces.",
+            "Easily visualize each workspace using common filters like Assigned to Me, Drafts, Sent, Unread, Snoozed, Pending, and Closed.",
           ]}
           imgSrc="/images/inbox-feature/FilteredImg.svg"
           imgAlt="FilteredImg"

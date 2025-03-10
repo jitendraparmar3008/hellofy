@@ -36,20 +36,20 @@ const HeroFeatureContact = () => {
   ];
   return (
     <>
-      <div className="w-full bg-gradient-light-red h-auto xl:h-[calc(100vh-45px)] 2xl:h-[calc(100vh-45px)] p-10 pt-[130px] lg:pt-[210px] relative">
+      <div className="w-full bg-gradient-light-red h-auto xl:h-[890px] p-10 pt-[130px] lg:pt-[210px] relative">
         <div className="max-w-[1490px] w-full mx-auto h-full">
           <div className="w-full text-center flex flex-col h-full">
             <div className="w-full">
               <FeatureTitleTag text="Contact Management" />
               <h2 className="3xl:text-64 md:text-5xl text-4xl text-dark text-center font-bold 3xl:leading-[80px] font-lexend">
-                Streamline{" "}
+                Optimize
                 <span className="text-transparent bg-clip-text bg-gradient-text-stremline">
-                  Customer Interactions
+                  Customer Engagement
                 </span>{" "}
-                and Boost Efficiency
+                and Enhance Productivity
               </h2>
               <p className="text-dark text-xl md:text-3xl text-center mt-3">
-                Increase Conversion Rates Based on Customer Characteristics
+                Boost Conversions by Leveraging Customer Insights
               </p>
             </div>
             <GateStartedInput />

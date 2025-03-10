@@ -38,18 +38,19 @@ const HeroFeatureFormbuilder = () => {
   ];
   return (
     <>
-      <div className="w-full bg-gradient-yellow h-auto xl:h-[calc(100vh-45px)] 2xl:h-[calc(100vh-45px)] p-10 pt-[130px] lg:pt-[210px] relative">
+      <div className="w-full bg-gradient-yellow h-auto xl:h-[890px] p-10 pt-[130px] lg:pt-[210px] relative">
         <div className="max-w-[1490px] w-full mx-auto h-full">
           <div className="w-full text-center flex flex-col h-full">
             <div className="w-full">
               <FeatureTitleTag text="Form Builder" />
               <h2 className="3xl:text-64 md:text-5xl text-4xl text-dark text-center font-bold 3xl:leading-[80px] font-lexend">
-                Effortless Data Collection for Better
+                Seamless Data Gathering for Deeper
                 <br />
                 <span className="text-primary">Customer Insights</span>
               </h2>
               <p className="text-dark text-xl md:text-3xl text-center mt-3">
-                Top Companies Utilising Hellofy for Secure Form Building
+                Leading Companies Trust Hellofy for Secure and Efficient Form
+                Building
               </p>
             </div>
             <GateStartedInput />

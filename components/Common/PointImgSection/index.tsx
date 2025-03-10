@@ -36,7 +36,7 @@ const PointImgSection: React.FC<PointImgSectionProps> = ({
         <div className="w-full flex lg:flex-row flex-col items-center gap-24">
           <div className={`max-w-[590px] ${ordering1}`}>
             <h3
-              className={`md:text-4xl text-2xl font-semibold text-dark ${titleClass}`}
+              className={`md:text-4xl text-2xl font-semibold text-dark break-words ${titleClass}`}
             >
               {title}
             </h3>

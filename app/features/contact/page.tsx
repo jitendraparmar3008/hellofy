@@ -14,26 +14,24 @@ const ContactFeature = () => {
       <HeroFeatureContact />
       <div className="max-w-[1420px] mx-auto pb-32">
         <PointImgSection
-          title="All-in-One Contact Screen"
+          title="Unified Contact Dashboard"
           points={[
             <>
-              <strong>Comprehensive View:</strong> Instantly access contact
-              details, notes, tasks, and appointments on a single, intuitive
-              interface.
+              <strong>Complete View:</strong> Quickly access contact details,
+              notes, tasks, and appointments in one seamless interface.
             </>,
             <>
-              <strong>Boost Efficiency:</strong> Eliminate the hassle of
-              switching between multiple screens—everything you need is
-              organized in one centralized hub.
+              <strong>Increased Efficiency:</strong> No more toggling between
+              multiple screens—everything is centralized for easy access.
             </>,
             <>
-              <strong>Stay Organized:</strong> Manage your to-do lists, track
-              client interactions, and review past communications effortlessly.
+              <strong>Better Organization:</strong> Effortlessly manage tasks,
+              track interactions, and review past conversations.
             </>,
             <>
-              <strong>Enhanced Productivity:</strong> Streamline your workflow
-              by having all crucial information at your fingertips, improving
-              response times and client satisfaction.
+              <strong>Enhanced Productivity:</strong> Keep all essential
+              information at your fingertips to improve response times and
+              customer satisfaction.
             </>,
           ]}
           imgSrc="/images/contact-feature/contact-feature01.svg"
@@ -46,30 +44,28 @@ const ContactFeature = () => {
           titleClass="whitespace-nowrap"
         />
         <PointImgSection
-          title="Easy Contact Filtering"
+          title="Seamless Contact Filtering"
           points={[
             <>
-              <strong>Quick Sorting:</strong> Instantly filter contacts by
+              <strong>Instant Filtering:</strong> Quickly sort contacts by
               custom categories like location, industry, or relationship status.
             </>,
             <>
-              <strong>Customizable Fields:</strong> Add personalized fields to
-              tailor your contact list to your unique business needs.
+              <strong>Tailored Fields</strong> Personalize your contact list
+              with custom fields that match your business needs.
             </>,
             <>
-              <strong>Enhanced Search:</strong> Find the right contacts in
-              seconds by applying multiple filters at once—no more endless
-              scrolling.
+              <strong>Advanced Search:</strong> Locate the right contacts in
+              seconds using multiple filters—no more endless scrolling.
             </>,
             <>
-              <strong>Smart Organization:</strong> Group contacts based on
-              interactions, tags, or specific data points to streamline
-              follow-ups and improve productivity.
+              <strong>Smart Organization:</strong> Categorize contacts by
+              interactions, tags, or key data points for efficient follow-ups.
             </>,
             <>
-              <strong>Save Filter Settings:</strong> Save frequently used
-              filters for quick access to important contacts, boosting
-              efficiency for future searches.
+              <strong>Saved Filters:</strong> Store frequently used filters for
+              fast access, streamlining future searches and boosting
+              productivity.
             </>,
           ]}
           imgSrc="/images/contact-feature/contact-feature02.svg"
@@ -81,11 +77,22 @@ const ContactFeature = () => {
           className="lg:pb-24 pb-10"
         />
         <PointImgSection
-          title="Group Actions"
+          title="Bulk Actions"
           points={[
-            "Save time by applying bulk operations like tagging, updating, or deleting multiple contacts at once, all within your filtered lists.",
-            "Quickly reach out to customers with personalized messages and update their details to keep your database accurate and up to date.",
-            "Simplify task delegation by assigning responsibilities to team members effortlessly, ensuring efficient collaboration and productivity.",
+            <>
+              <strong>Efficient Bulk Actions:</strong> Save time by tagging,
+              updating, or deleting multiple contacts at once within your
+              filtered lists.
+            </>,
+            <>
+              <strong>Seamless Outreach:</strong> Send personalized messages and
+              update contact details to keep your database accurate and current.
+            </>,
+            <>
+              <strong>Streamlined Task Delegation:</strong> Easily assign
+              responsibilities to team members, promoting smooth collaboration
+              and enhanced productivity.
+            </>,
           ]}
           imgSrc="/images/contact-feature/contact-feature03.gif"
           imgAlt="BoostMarketingImg"
@@ -98,10 +105,17 @@ const ContactFeature = () => {
           imgClass="shadow-dim_grey_shadow rounded-2xl p-4"
         />
         <PointImgSection
-          title="Data Importing and Exporting"
+          title="Effortless Data Migration"
           points={[
-            "Easily detect duplicate entries in your database and merge or update them to maintain accurate and organized records.",
-            "Seamlessly upload data from spreadsheets to centralize customer and lead information, ensuring easy access and efficient management.",
+            <>
+              <strong>Duplicate Detection & Cleanup:</strong> Identify and merge
+              duplicate entries to keep your database accurate and organized.
+            </>,
+            <>
+              <strong>Effortless Data Upload: </strong> Import customer and lead
+              information from spreadsheets, ensuring centralized and efficient
+              management.
+            </>,
           ]}
           imgSrc="/images/contact-feature/contact-feature04.svg"
           imgAlt="AccountablityImg"
@@ -113,12 +127,24 @@ const ContactFeature = () => {
           titleClass="whitespace-nowrap"
         />
         <PointImgSection
-          title="Fast Contact with Leads"
+          title="Quick Lead Engagement"
           points={[
-            "Engage customers at the right moment to boost conversions.",
-            "Use automated WhatsApp messages to build trust and engagement.",
-            "Simplify navigation to relevant resources or services.",
-            "Accelerate sales with a streamlined, customer-focused approach.",
+            <>
+              <strong>Timely Engagement:</strong> Connect with customers at the
+              perfect moment to maximize conversions.
+            </>,
+            <>
+              <strong>Automated Messaging:</strong> Use WhatsApp automation to
+              foster trust and engagement effortlessly.
+            </>,
+            <>
+              <strong>Seamless Navigation:</strong> Guide customers to relevant
+              resources or services with ease.
+            </>,
+            <>
+              <strong>Accelerated Sales:</strong> Drive growth with a smooth,
+              customer-centric sales process.
+            </>,
           ]}
           imgSrc="/images/contact-feature/contact-feature05.svg"
           imgAlt="AIRewriteImg"
@@ -130,11 +156,20 @@ const ContactFeature = () => {
           titleClass="whitespace-nowrap"
         />
         <PointImgSection
-          title="Personalized Touchpoints"
+          title="Customized Interactions"
           points={[
-            "Strategically engage at every stage to meet needs and strengthen relationships.",
-            "Access a full view of interactions to tailor your approach effectively.",
-            "Deliver tailored interactions to boost satisfaction and loyalty.",
+            <>
+              <strong>Strategic Engagement:</strong>Connect with customers at
+              every stage to meet their needs and build strong relationships.
+            </>,
+            <>
+              <strong>Comprehensive Insights:</strong> Gain a complete view of
+              interactions to personalize your approach effectively.
+            </>,
+            <>
+              <strong>Tailored Experiences:</strong>Deliver customized
+              interactions that enhance satisfaction and foster loyalty.
+            </>,
           ]}
           imgSrc="/images/contact-feature/contact-feature06.svg"
           imgAlt="FilteredImg"
