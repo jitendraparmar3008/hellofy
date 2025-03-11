@@ -42,14 +42,13 @@ const HeroFeatureChatbot = () => {
         <div className="max-w-[1490px] w-full mx-auto h-full">
           <div className="w-full text-center flex flex-col h-full">
             <div className="w-full">
-              <FeatureTitleTag text="Chatbot" />
+              <FeatureTitleTag text="ChatFlow" />
               <h2 className="3xl:text-64 md:text-5xl text-4xl text-dark text-center font-bold 3xl:leading-[80px] font-lexend">
-                Transform the way you interact with customers using WhatsApp
-                Chatbots.
+                Revolutionize customer engagement with WhatsApp Chatbots.
               </h2>
               <p className="text-dark text-xl md:text-3xl text-center mt-3">
-                Build smart WhatsApp chatbots to boost service, delight
-                customers, and drive revenue.
+                Create intelligent WhatsApp chatbots to enhance service, delight
+                customers, and increase revenue.
               </p>
             </div>
             <GateStartedInput />

@@ -45,16 +45,16 @@ const HeroBroadcastManagement = () => {
         <div className="max-w-[1490px] w-full mx-auto h-full">
           <div className="w-full text-center flex flex-col h-full">
             <div className="w-full">
-              <FeatureTitleTag text="Broadcast Management" />
+              <FeatureTitleTag text="Broadcast Center" />
               <h2 className="3xl:text-64 md:text-5xl text-4xl text-dark text-center font-bold 3xl:leading-[80px] font-lexend relative">
-                Elevate Customer Outreach with Hellofy Broadcast Management
+                Supercharge Customer Engagement with Hellofy Broadcasts
                 <span className="absolute -top-8 -right-2 xl:right-0 scale-50 xl:scale-100 2xl:inline-block hidden">
                   <BroadcastVector02 />
                 </span>
               </h2>
               <p className="text-dark text-xl md:text-3xl text-center mt-3">
-                Reach the right audience, track performance, and boost
-                engagement seamlessly.
+                Reach the right audience, monitor performance in real time, and
+                maximize engagement effortlessly.
               </p>
             </div>
             <GateStartedInput />

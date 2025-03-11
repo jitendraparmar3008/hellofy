@@ -14,7 +14,7 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 21,
-        title: "Team Inbox",
+        title: "Conversation Center",
         description:
           "Collaborate seamlessly with your team to manage conversations.",
         path: "/features/inbox",
@@ -38,21 +38,21 @@ const menuData: Menu[] = [
       },
       {
         id: 24,
-        title: "Template Management",
+        title: "Smart Template Builder",
         description: "Streamline communication with message templates.",
         path: "/features/template-management",
         newTab: false,
       },
       {
         id: 25,
-        title: "Broadcast Management",
+        title: "Broadcast Center",
         description: "Engage your audience and track performance.",
         path: "/features/broadcast-management",
         newTab: false,
       },
       {
         id: 26,
-        title: "Chatbot",
+        title: "ChatFlow",
         description: "Boost revenue with smart WhatsApp chatbots.",
         path: "/features/chatbot",
         newTab: false,

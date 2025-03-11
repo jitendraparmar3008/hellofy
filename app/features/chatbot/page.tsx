@@ -14,12 +14,12 @@ const ChatbotFeature = () => {
       <HeroFeatureChatbot />
       <div className="max-w-[1420px] mx-auto pb-32">
         <PointImgSection
-          title="Simplify WhatsApp Customer Engagement"
+          title="Simplify WhatsApp Customer Interactions"
           points={[
-            "Create automated workflows in minutes with Hellofy’s no-code visual builder.",
-            "Personalize messages using images, videos for better engagement.",
-            "Reach prospects and customers with the right message at the right time.",
-            "Save time, enhance productivity, and streamline your customer engagement.",
+            "Build automated workflows effortlessly with Hellofy’s no-code visual builder.",
+            "Enhance messages with images and videos for better engagement.",
+            "Reach your audience with the right message at the right time.",
+            "Increase efficiency, save time, and optimize customer communication.",
           ]}
           imgSrc="/images/chatbot-feature/chatbot-feature01.svg"
           imgAlt="InteractionImg"
@@ -33,8 +33,8 @@ const ChatbotFeature = () => {
         <PointImgSection
           title="Automate Conversations and Serve 24/7"
           points={[
-            "Engage customers anytime with drag-and-drop components.",
-            "Streamline sales and customer support with automated workflows.",
+            "Connect with customers anytime using intuitive drag-and-drop components.",
+            "Simplify sales and support with efficient automated workflows.",
           ]}
           imgSrc="/images/chatbot-feature/chatbot-feature02.svg"
           imgAlt="TemplateManagementImg"

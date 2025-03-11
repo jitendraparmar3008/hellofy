@@ -14,12 +14,24 @@ const BroadcastManagement = () => {
       <HeroBroadcastManagement />
       <div className="max-w-[1420px] mx-auto pb-32">
         <PointImgSection
-          title="Comprehensive Broadcast Overview"
+          title="Comprehensive Broadcast Management"
           points={[
-            "Get a complete view of all your broadcasts and manage them efficiently.",
-            "Access a detailed broadcast listing with statuses for easy tracking.",
-            "Filter broadcasts using categories such as status, template, name, or date.",
-            `Keep track of daily limits with a real-time "Today's Limit" tag for sent and remaining broadcasts.`,
+            <>
+              <strong>Clear Broadcast Overview:</strong> View and manage all
+              broadcasts effortlessly.
+            </>,
+            <>
+              <strong>Detailed Status Tracking:</strong> Monitor broadcasts with
+              real-time status updates.
+            </>,
+            <>
+              <strong>Smart Filters:</strong> Quickly find broadcasts by status,
+              template, name, or date.
+            </>,
+            <>
+              <strong>Daily Limit Tracking:</strong> Stay informed with a
+              "Today's Limit" tag showing sent and remaining broadcasts.
+            </>,
           ]}
           imgSrc="/images/broadcast-feature/broadcast-feature01.svg"
           imgAlt="InteractionImg"
@@ -31,12 +43,24 @@ const BroadcastManagement = () => {
           titleClass="lg:whitespace-nowrap whitespace-normal "
         />
         <PointImgSection
-          title="Targeted Audience Selection"
+          title="Advanced Audience Selection"
           points={[
-            "Send tailored messages to the right audience for improved engagement.",
-            "Choose specific contact groups based on your broadcast requirements.",
-            "Leverage intuitive group selection tools to streamline audience targeting.",
-            "Ensure maximum relevance by aligning your messages with the right recipients.",
+            <>
+              <strong>Personalized Outreach:</strong> Deliver tailored messages
+              to the right audience for higher engagement.
+            </>,
+            <>
+              <strong>Custom Contact Groups:</strong> Select specific groups
+              based on your broadcast needs.
+            </>,
+            <>
+              <strong>Easy Audience Selection:</strong> Use intuitive tools to
+              streamline targeting and improve efficiency.
+            </>,
+            <>
+              <strong>Relevant Communication:</strong> Ensure messages reach the
+              right recipients for maximum impact.
+            </>,
           ]}
           imgSrc="/images/broadcast-feature/broadcast-feature02.svg"
           imgAlt="TemplateManagementImg"
@@ -48,12 +72,24 @@ const BroadcastManagement = () => {
           titleClass="lg:whitespace-nowrap whitespace-normal "
         />
         <PointImgSection
-          title="Detailed Review & Message Preview"
+          title="Thorough Review & Message Preview"
           points={[
-            "Ensure accuracy and impact before sending your broadcast.",
-            "Review all broadcast details on a dedicated confirmation page.",
-            "Use the preview pane to see how the message will appear to recipients.",
-            "Make last-minute adjustments with ease to perfect your broadcast.",
+            <>
+              <strong>Verify Accuracy:</strong> Ensure effectiveness before
+              sending your broadcast.
+            </>,
+            <>
+              <strong>Detailed Confirmation Page:</strong> Check all broadcast
+              details before submission.
+            </>,
+            <>
+              <strong>Preview Pane:</strong> See exactly how your message will
+              appear to recipients.
+            </>,
+            <>
+              <strong>Final Tweaks:</strong> Easily make last-minute adjustments
+              for a flawless broadcast.
+            </>,
           ]}
           imgSrc="/images/broadcast-feature/broadcast-feature03.svg"
           imgAlt="BoostMarketingImg"
@@ -65,12 +101,24 @@ const BroadcastManagement = () => {
           titleClass="lg:whitespace-nowrap whitespace-normal "
         />
         <PointImgSection
-          title="Data-Driven Insights with Analytics"
+          title="Analytics-Powered Insights for Smarter Campaigns"
           points={[
-            "Optimize your campaigns with actionable insights.",
-            "Access the Analytics button for a comprehensive performance overview of all broadcasts.",
-            "Monitor key metrics such as delivery rates, engagement levels, and success rates.",
-            "Use analytics to refine strategies and enhance future campaign outcomes.",
+            <>
+              <strong>Data-Driven Decisions:</strong> Enhance your campaigns
+              with valuable insights.
+            </>,
+            <>
+              <strong>Analytics Overview:</strong> Click the Analytics button
+              for detailed performance metrics.
+            </>,
+            <>
+              <strong>Track Key Metrics:</strong> Monitor delivery rates,
+              engagement, and overall success.
+            </>,
+            <>
+              <strong>Refine Strategies:</strong> Use insights to improve future
+              campaign results.
+            </>,
           ]}
           imgSrc="/images/broadcast-feature/broadcast-feature04.svg"
           imgAlt="AccountablityImg"

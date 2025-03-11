@@ -14,26 +14,26 @@ const TemplateManagement = () => {
       <HeroTemplateManagement />
       <div className="max-w-[1420px] mx-auto pb-32">
         <PointImgSection
-          title="Simplified Template Organization"
+          title="Effortless Template Management "
           points={[
             <>
-              <strong>Comprehensive Template Listing:</strong> Easily view all
-              templates in your preferred format—list view or grid view—for
-              quick navigation and better clarity.
+              <strong>Comprehensive Template Overview:</strong> Browse all your
+              templates in a clear, customizable list or grid view for easy
+              navigation.
             </>,
             <>
-              <strong>Smart Filters:</strong> Narrow down templates by status
-              (e.g., draft, approved), category (e.g., marketing, utility), or
-              time (e.g., recently updated).
+              <strong>Smart Filtering:</strong> Quickly find what you need by
+              filtering templates by status (draft, approved), category
+              (marketing, utility), or update time (recently modified).
             </>,
             <>
-              <strong>Favorite Templates:</strong> Bookmark frequently used
-              templates for faster access, minimizing repetitive searches.
+              <strong>Quick Access Favorites:</strong> Save your most-used
+              templates for instant access, eliminating repetitive searches.
             </>,
             <>
-              <strong>Search Bar & Sync:</strong> Locate templates instantly
-              using the search bar, and use the sync button to ensure templates
-              are always up-to-date
+              <strong>Instant Search & Real-Time Sync:</strong> Locate templates
+              effortlessly with a powerful search bar, and keep everything
+              updated with a single sync button.
             </>,
           ]}
           imgSrc="/images/template-feature/template-feature01.svg"
@@ -49,26 +49,27 @@ const TemplateManagement = () => {
           title="Effortless Template Creation"
           points={[
             <>
-              <strong>Customizable Design Options:</strong> Add headers with
-              options like none, image, video, text, or document to suit various
-              communication needs.
+              <strong>Versatile Design Options:</strong> Personalize headers
+              with images, videos, text, or documents, or keep it minimal with
+              no header at all.
             </>,
             <>
-              <strong>Dynamic Message Body:</strong> Include variables (e.g.,
-              names, order details) and forms to personalize messages, with
-              support for emoji, bold, italic, and strikethrough text styles.
+              <strong>Dynamic Message Personalization:</strong> Use variables
+              (e.g., names, order details) and forms to create tailored
+              messages, with support for emoji, bold, italic, and strikethrough
+              text styles.
             </>,
             <>
-              <strong>Footer and Buttons:</strong> Enhance messages with footers
-              and interactive buttons like Call to Action (links, phone numbers)
-              or Quick Reply (predefined responses).chatbot can be also
-              initiated with quick reply button
+              <strong>Engaging Footers & Interactive Buttons:</strong> Add
+              footers and action-driven buttons like Call to Action (links,
+              phone numbers) or Quick Reply (predefined responses) to boost
+              engagement. You can also trigger chatbots using the Quick Reply
+              button.
             </>,
             <>
-              <strong>Category and Language Flexibility:</strong> Choose the
-              appropriate category (e.g., marketing, utility, authentication)
-              and language, with the option to allow or restrict category
-              changes.
+              <strong>Flexible Categories & Languages:</strong> Assign the right
+              category (marketing, utility, authentication) and language, with
+              the option to restrict or allow category changes as needed.
             </>,
           ]}
           imgSrc="/images/template-feature/template-feature02.svg"
@@ -84,19 +85,17 @@ const TemplateManagement = () => {
           title="Simplified Template Approval Workflow"
           points={[
             <>
-              <strong>One-Click Submission:</strong> Submit templates directly
-              for Meta approval, ensuring compliance with WhatsApp’s policies
-              and guidelines.
+              <strong>One-Click Submission:</strong> Send templates for Meta
+              approval instantly while ensuring compliance with WhatsApp’s
+              policies.
             </>,
             <>
-              <strong>Approval Status Tracking:</strong> Easily monitor the
-              status of submitted templates, so you know when they’re ready to
-              use.
+              <strong>Real-Time Status Tracking:</strong> Monitor approval
+              progress and know exactly when your templates are ready to use.
             </>,
             <>
-              <strong>Save as Draft Option:</strong> Store incomplete or
-              work-in-progress templates in the Draft Section for later editing
-              or finalization.
+              <strong>Save as Draft:</strong> Store unfinished templates in the
+              Draft Section for easy editing and finalization later.
             </>,
           ]}
           imgSrc="/images/template-feature/template-feature03.svg"

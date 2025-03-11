@@ -43,16 +43,17 @@ const HeroTemplateManagement = () => {
         <div className="max-w-[1490px] w-full mx-auto h-full">
           <div className="w-full text-center flex flex-col h-full">
             <div className="w-full">
-              <FeatureTitleTag text="Template Management" />
+              <FeatureTitleTag text="Template Builder" />
               <h2 className="3xl:text-64 md:text-5xl text-4xl text-dark text-center font-bold 3xl:leading-[80px] font-lexend relative">
-                Create, Customize, and Communicate Seamlessly with Hellofy
+                Effortlessly Create, Personalize, and <br></br> Connect with
+                Hellofy
                 <span className="absolute -top-28 -right-16 2xl:block hidden">
                   <TemplateVector02 />
                 </span>
               </h2>
               <p className="text-dark text-xl md:text-3xl text-center mt-3">
-                Effortlessly create, edit, and manage message templates to
-                streamline your communication.
+                Easily create, customize, and organize message templates for
+                smoother, more efficient communication.
               </p>
             </div>
             <GateStartedInput />
