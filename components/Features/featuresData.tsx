@@ -126,7 +126,7 @@ const featuresData: Feature[] = [
     height: 425,
   },
   {
-    title: "SmartForm Builder",
+    title: "Smart Form Builder",
     subTitle: "Create forms that deliver valuable feedback and drive results.",
     description: (
       <>

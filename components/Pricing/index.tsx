@@ -134,8 +134,8 @@ const Pricing = () => {
           /> */}
           <PricingBox
             packageName="Lets try"
-            price={isMonthly ? "₹4500" : "₹4500"}
-            duration={isMonthly ? "/mo" : "/mo"}
+            //price={isMonthly ? "₹4500" : "₹4500"}
+            //duration={isMonthly ? "/mo" : "/mo"}
             subtitle="1 user included"
             subtitle1="Role Management Admin +1"
           >
@@ -188,8 +188,8 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox
             packageName="Growth"
-            price={isMonthly ? "₹8500" : "₹8500"}
-            duration={isMonthly ? "/mo" : "/mo"}
+            //price={isMonthly ? "₹8500" : "₹8500"}
+            //duration={isMonthly ? "/mo" : "/mo"}
             subtitle="3 user included"
             subtitle1="Role Management Admin +4"
           >
@@ -239,8 +239,8 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox
             packageName="Business"
-            price={isMonthly ? "₹16,500" : "₹16,500"}
-            duration={isMonthly ? "/mo" : "/mo"}
+            //price={isMonthly ? "₹16,500" : "₹16,500"}
+            //duration={isMonthly ? "/mo" : "/mo"}
             subtitle="10 user included"
             subtitle1="Role Management Admin +4"
           >

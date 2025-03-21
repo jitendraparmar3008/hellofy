@@ -62,12 +62,18 @@ const PricingBox = (props: {
                 Contact Us
               </button>
             ) : (
-              <Link
-                href="/book-a-demo"
+              <button
+                onClick={handleOpenPricingModal}
                 className="flex w-full items-center justify-center  rounded-xl bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
               >
-                Select Plan
-              </Link>
+                Contact Us
+              </button>
+              // <Link
+              //   href="/book-a-demo"
+              //   className="flex w-full items-center justify-center  rounded-xl bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
+              // >
+              //   Select Plan
+              // </Link>
             )}
           </div>
           <div>{children}</div>

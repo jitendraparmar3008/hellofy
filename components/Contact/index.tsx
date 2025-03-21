@@ -455,13 +455,13 @@ const Contact = () => {
                 Office
               </h3>
               <p className="text-dark lg:text-[20px] text-sm font-normal text-center">
-                A- 1107, PNTC, VEJALPUR, <br />
-                Jodhpur Char Rasta, <br />
-                Ahmadabad City,
-                <br /> Ahmedabad- 380015, Gujarat
+                Shams business centre, <br />
+                Sharjah Media City Free Zone,
+                <br />
+                AI Messaned, Sharjah, UAE
               </p>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            {/* <div className="flex flex-col justify-center items-center">
               <Image
                 src="/images/contact/phone_icon.svg"
                 height={108}
@@ -474,7 +474,7 @@ const Contact = () => {
               <p className="text-dark lg:text-[20px] text-sm font-normal">
                 +91-9724323103
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

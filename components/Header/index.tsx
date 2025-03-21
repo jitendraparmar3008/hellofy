@@ -89,7 +89,7 @@ const Header = () => {
                 /> */}
               </Link>
             </div>
-            <div className="flex w-full justify-center md:justify-between items-center px-4 md:px-8 lg:px-4">
+            <div className="flex w-full justify-center md:justify-end items-center px-4 md:px-8 lg:px-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -216,7 +216,7 @@ const Header = () => {
                       </li>
                     ))}
                   </ul>
-                  <div className="flex flex-col gap-3 items-center md:hidden mt-4">
+                  {/* <div className="flex flex-col gap-3 items-center md:hidden mt-4">
                     <Link
                       href="https://app.hellofy.io/"
                       className="ease-in-up hover:shadow-btn-hover bg-transparent px-4 py-2.5 text-base font-medium text-dark transition duration-300 hover:bg-opacity-90 md:block rounded-lg border border-french_gray max-h-11 w-full text-center"
@@ -229,10 +229,10 @@ const Header = () => {
                     >
                       Book Demo
                     </Link>
-                  </div>
+                  </div> */}
                 </nav>
               </div>
-              <div className=" items-center justify-end gap-4 hidden md:flex">
+              {/* <div className=" items-center justify-end gap-4 hidden md:flex">
                 <Link
                   href="https://app.hellofy.io/"
                   className="ease-in-up hover:shadow-btn-hover bg-transparent p-2 lg:px-4 lg:py-2.5 text-sm md:text-base font-medium text-dark transition duration-300 hover:bg-opacity-90  rounded-lg border border-french_gray max-h-11 "
@@ -245,7 +245,7 @@ const Header = () => {
                 >
                   Book Demo
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

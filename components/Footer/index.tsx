@@ -27,13 +27,18 @@ const Footer = () => {
             <ArrowVector className="hidden lg:block pt-4" />
             <div>
               <Link href="/" className="inline-block mb-3">
+                <span className="text-white font-semibold text-3xl">
+                  Hellofy
+                </span>
+              </Link>
+              {/* <Link href="/" className="inline-block mb-3">
                 <Image
                   src="/images/logo/logo.svg"
                   alt="logo"
                   width={140}
                   height={30}
                 />
-              </Link>
+              </Link> */}
               {/* <p className="text-sm font-medium leading-5 mb-2">
                 Just send us your contact email and we will contact you.
               </p> */}
@@ -77,7 +82,7 @@ const Footer = () => {
                   Talk To Us
                 </h5>
                 <ul className="my-4">
-                  <li>
+                  {/* <li>
                     <Link
                       href="mailto:support@ercom.com"
                       target=""
@@ -85,7 +90,7 @@ const Footer = () => {
                     >
                       hello@hellofy.io
                     </Link>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <Link
                       href="tel:+66 2399 1145"
@@ -98,14 +103,13 @@ const Footer = () => {
                 </ul>
 
                 <p className="text-white/80 text-base leading-[30px] font-normal hover:text-white transition-all mb-2">
-                  A- 1107, PNTC, VEJALPUR, <br />
-                  Jodhpur Char Rasta, <br />
-                  Ahmadabad City,
-                  <br /> Ahmedabad- 380015, Gujarat{" "}
+                  Shams business centre,
+                  <br /> Sharjah Media City Free Zone,
+                  <br /> AI Messaned, Sharjah, UAE
                 </p>
 
                 <div className="w-full flex items-center gap-3.5">
-                  <Link
+                  {/* <Link
                     target="_blank"
                     href="https://www.linkedin.com/company/hellofy/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BpMbuSiNvQhyy%2B2aOLYHaUg%3D%3D"
                     className="flex justify-center items-center w-10 h-10 rounded-full bg-white/25 hover:shadow-xl transition-all"
@@ -118,7 +122,7 @@ const Footer = () => {
                     className="flex justify-center items-center w-10 h-10 rounded-full bg-white/25 hover:shadow-xl transition-all"
                   >
                     <Instagram />
-                  </Link>
+                  </Link> */}
                   {/* <Link
                     href=""
                     className="flex justify-center items-center w-10 h-10 rounded-full bg-white/25 hover:shadow-xl transition-all"
@@ -137,7 +141,7 @@ const Footer = () => {
           </div>
           <hr className="pb-7 lg:pb-14 max-w-5xl mx-auto border-white/20" />
           <div className="text-white font-normal text-base leading-[14px] text-center pb-3 md:pb-9">
-            © 2024 Hellofy. All Rights Reserved.
+            © 2025 Hellofy. All Rights Reserved.
           </div>
         </div>
       </footer>

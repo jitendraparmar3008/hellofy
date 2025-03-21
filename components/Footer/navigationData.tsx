@@ -14,24 +14,24 @@ const NavigationData = [
         path: "/about",
         newTab: false,
       },
-      {
-        id: 3,
-        title: "Contact Us",
-        path: "/contact",
-        newTab: false,
-      },
+      // {
+      //   id: 3,
+      //   title: "Contact Us",
+      //   path: "/contact",
+      //   newTab: false,
+      // },
       {
         id: 4,
         title: "Pricing",
         path: "/pricing",
         newTab: false,
       },
-      {
-        id: 4,
-        title: "Knowledge Center",
-        path: "https://docs.hellofy.io/",
-        newTab: true,
-      },
+      // {
+      //   id: 4,
+      //   title: "Knowledge Center",
+      //   path: "https://docs.hellofy.io/",
+      //   newTab: true,
+      // },
     ],
   },
   {
@@ -157,22 +157,22 @@ const NavigationData = [
   //     },
   //   ],
   // },
-  {
-    heading: "Legal",
-    links: [
-      {
-        id: 2,
-        title: "Privacy Policy",
-        path: "/privacy-policy",
-        newTab: false,
-      },
-      {
-        id: 3,
-        title: "Terms of Service",
-        path: "/terms-of-service",
-        newTab: false,
-      },
-    ],
-  },
+  // {
+  //   heading: "Legal",
+  //   links: [
+  //     {
+  //       id: 2,
+  //       title: "Privacy Policy",
+  //       path: "/privacy-policy",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 3,
+  //       title: "Terms of Service",
+  //       path: "/terms-of-service",
+  //       newTab: false,
+  //     },
+  //   ],
+  // },
 ];
 export default NavigationData;
