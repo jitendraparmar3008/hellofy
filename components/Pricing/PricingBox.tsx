@@ -2,10 +2,10 @@
 import Link from "next/link";
 // import { useNavigate } from "react-router-dom";
 import PriceContactModal from "../Common/PriceContactModal";
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 
 const PricingBox = (props: {
-  price?: string;
+  price?: ReactNode;
   duration?: string;
   packageName: string;
   subtitle: string;
@@ -40,7 +40,7 @@ const PricingBox = (props: {
     <>
       <div className="w-full">
         <div
-          className="wow fadeInUp shadow-three dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark relative z-10 rounded-sm bg-white border border-french_gray px-8 py-10 hover:shadow-one min-h-[731px] h-full"
+          className="wow fadeInUp shadow-three dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark relative z-10 rounded-sm bg-white border border-french_gray px-6 py-6 hover:shadow-one min-h-[731px] h-full"
           data-wow-delay=".1s"
         >
           <div className="flex flex-col h-[104px] max-h-[104px]">
@@ -53,7 +53,7 @@ const PricingBox = (props: {
               <span className="time text-body-color">{duration}</span>
             </h3>
           </div>
-          <div className="mb-8  pb-8 dark:border-white dark:border-opacity-10">
+          <div className="mb-8 dark:border-white dark:border-opacity-10">
             {planType === "custom" ? (
               <button
                 onClick={handleOpenPricingModal}
@@ -62,18 +62,18 @@ const PricingBox = (props: {
                 Contact Us
               </button>
             ) : (
-              <button
-                onClick={handleOpenPricingModal}
-                className="flex w-full items-center justify-center  rounded-xl bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
-              >
-                Contact Us
-              </button>
-              // <Link
-              //   href="/book-a-demo"
+              // <button
+              //   onClick={handleOpenPricingModal}
               //   className="flex w-full items-center justify-center  rounded-xl bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
               // >
-              //   Select Plan
-              // </Link>
+              //   Contact Us
+              // </button>
+              <Link
+                href="#"
+                className="flex w-full items-center justify-center  rounded-xl bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
+              >
+                Select Plan
+              </Link>
             )}
           </div>
           <div>{children}</div>
