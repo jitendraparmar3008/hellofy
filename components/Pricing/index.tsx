@@ -17,6 +17,18 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
   const [isModalOpen, setModalOpen] = useState(false);
   const searchParams = useSearchParams();
+
+  const startonPrice = 9;
+  const basicPrice = 39;
+  const growthPrice = 99;
+  const businessPrice = 199;
+
+  const calculateYearlyPrice = (monthlyPrice) => {
+    const yearlyPrice = monthlyPrice * 12;
+    const discountedPrice = yearlyPrice * 0.8; // Applying 20% discount
+    return discountedPrice.toFixed(2);
+  };
+
   useEffect(() => {
     if (searchParams.get("viewconversationrates") === "open") {
       setModalOpen(true);
@@ -104,12 +116,12 @@ const Pricing = () => {
             </span>
             <div className="flex items-center text-primary font-medium text-lg leading-5 ml-2.5">
               <PriceArrowVector />
-              <span className="mt-8">Save 25%</span>
+              <span className="mt-8">Save 20%</span>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5">
           {/* {planData?.map((item: any, index: number) => (
             <PricingBox
               key={index}
@@ -133,13 +145,30 @@ const Pricing = () => {
             wrapclassName="bg-purple_light"
           /> */}
           <PricingBox
-            packageName="Lets try"
-            //price={isMonthly ? "₹4500" : "₹4500"}
-            //duration={isMonthly ? "/mo" : "/mo"}
-            subtitle="1 user included"
+            packageName="Start on"
+            price={
+              isMonthly ? (
+                <>${startonPrice}</>
+              ) : (
+                <>
+                  {`$${calculateYearlyPrice(startonPrice)} `}
+                  <span className="line-through hidden">
+                    ${startonPrice * 12}
+                  </span>
+                </>
+              )
+            }
+            duration={isMonthly ? "/mo" : "/mo"}
+            subtitle="Users (Upto) - 1"
             subtitle1="Role Management Admin +1"
           >
-            <OfferList text="Import unlimited contacts" status="active" />
+            <OfferList text="Only broadcast" status="active" />
+            <OfferList text="Team inbox" status="active" />
+            <OfferList text="Shopify automation (+ $5)" status="active" />
+            <OfferList text="5K broadcast per month" status="active" />
+            <OfferList text="Campaign analytics" status="active" />
+            <OfferList text="Email support" status="active" />
+            {/* <OfferList text="Import unlimited contacts" status="active" />
             <OfferList
               text="Broadcast to unlimited contacts including media"
               status="active"
@@ -151,7 +180,7 @@ const Pricing = () => {
             <OfferList text="1 channel" status="active" />
             <OfferList text="Email Support" status="active" />
             <OfferList text="Unlimited tags" status="active" />
-            <OfferList text="1 custom attribute" status="active" />
+            <OfferList text="1 custom attribute" status="active" /> */}
             {/* <OfferList text="Free Chatbots Sessions - 1000" status="active" />
             <OfferList text="Multiple Channels" status="inactive" />
             <OfferList text="Tags - 3" status="active" />
@@ -187,13 +216,30 @@ const Pricing = () => {
             <OfferList text="On Site Support " status="active" /> */}
           </PricingBox>
           <PricingBox
-            packageName="Growth"
-            //price={isMonthly ? "₹8500" : "₹8500"}
-            //duration={isMonthly ? "/mo" : "/mo"}
-            subtitle="3 user included"
+            packageName="Basic"
+            price={
+              isMonthly ? (
+                <>${basicPrice}</>
+              ) : (
+                <>
+                  {`$${calculateYearlyPrice(basicPrice)} `}
+                  <span className="line-through hidden">
+                    ${basicPrice * 12}
+                  </span>
+                </>
+              )
+            }
+            duration={isMonthly ? "/mo" : "/mo"}
+            subtitle="Users (Upto) - 3"
             subtitle1="Role Management Admin +4"
           >
-            <OfferList text="Everything in Lets Try +" status="active" />
+            <OfferList text="Everything in Start on +" status="active" />
+            <OfferList text="No-code Chatbot" status="active" />
+            <OfferList text="Form builder" status="active" />
+            <OfferList text="Chatbot logs and sessions" status="active" />
+            <OfferList text="15k total broadcast p.m" status="active" />
+
+            {/* <OfferList text="Everything in Lets Try +" status="active" />
             <OfferList text="Shared Team Inbox" status="active" />
             <OfferList text="API secret and access tokens" status="active" />
             <OfferList
@@ -212,7 +258,7 @@ const Pricing = () => {
             <OfferList text="Bluetick verification on demand" status="active" />
             <OfferList text="Shopify integration" status="active" />
             <OfferList text="Download all conversations" status="active" />
-            <OfferList text="CTWA" status="active" />
+            <OfferList text="CTWA" status="active" /> */}
             {/* <OfferList text="Product Cateloge" status="active" />
             <OfferList text="Email Support" status="active" />
             <OfferList text="Whatsapp Support" status="inactive" />
@@ -238,13 +284,32 @@ const Pricing = () => {
             <OfferList text="On Site Support " status="active" /> */}
           </PricingBox>
           <PricingBox
-            packageName="Business"
-            //price={isMonthly ? "₹16,500" : "₹16,500"}
-            //duration={isMonthly ? "/mo" : "/mo"}
-            subtitle="10 user included"
+            packageName="Growth"
+            price={
+              isMonthly ? (
+                <>${growthPrice}</>
+              ) : (
+                <>
+                  {`$${calculateYearlyPrice(growthPrice)} `}
+                  <span className="line-through hidden">
+                    ${growthPrice * 12}
+                  </span>
+                </>
+              )
+            }
+            duration={isMonthly ? "/mo" : "/mo"}
+            subtitle="Users (Upto) - 7"
             subtitle1="Role Management Admin +4"
           >
-            <OfferList text="Everything in Growth +" status="active" />
+            <OfferList text="Everything in Basic +" status="active" />
+            <OfferList text="Chatbot connector" status="active" />
+            <OfferList text="API keys" status="active" />
+            <OfferList text="Role and user management" status="active" />
+            <OfferList text="Ticket management manual" status="active" />
+            <OfferList text="Basic AI features" status="active" />
+            <OfferList text="25k total broadcast p.m" status="active" />
+            <OfferList text="Call support" status="active" />
+            {/* <OfferList text="Everything in Growth +" status="active" />
             <OfferList
               text="Chatbot connections(integration with client system)"
               status="active"
@@ -252,7 +317,7 @@ const Pricing = () => {
             <OfferList text="Schedule broadcast" status="active" />
             <OfferList text="Unlimited custom attributes" status="active" />
             <OfferList text="Dedicated account manager" status="active" />
-            <OfferList text="Instant call support" status="active" />
+            <OfferList text="Instant call support" status="active" /> */}
             {/* <OfferList text="AI Chatbot Flows" status="active" />
             <OfferList text="Free Chatbots Sessions - 3000" status="active" />
             <OfferList text="Multiple Channels" status="active" />
@@ -286,13 +351,36 @@ const Pricing = () => {
             <OfferList text="On Site Support " status="active" /> */}
           </PricingBox>
           <PricingBox
-            packageName="Custom"
-            price={""}
-            duration={isMonthly ? "" : ""}
-            subtitle="As per requirement"
+            packageName="Business"
+            price={
+              isMonthly ? (
+                <>${businessPrice}</>
+              ) : (
+                <>
+                  {`$${calculateYearlyPrice(businessPrice)} `}
+                  <span className="line-through hidden">
+                    ${businessPrice * 12}
+                  </span>
+                </>
+              )
+            }
+            duration={isMonthly ? "/mo" : "/mo"}
+            subtitle="Users (Upto) - 15"
             subtitle1="Role Management Custom"
-            planType="custom"
+            //planType="custom"
           >
+            <OfferList text="Everything in Growth +" status="active" />
+            <OfferList text="Widget" status="active" />
+            <OfferList
+              text="Ticket management round robin and connect respective sales person"
+              status="active"
+            />
+            <OfferList text="Schedule broadcast" status="active" />
+            <OfferList text="Enhanced AI features" status="active" />
+            <OfferList text="Unlimited broadcast" status="active" />
+            <OfferList text="Drip campaigns" status="active" />
+            <OfferList text="WhatsApp support" status="active" />
+
             {/* <OfferList text="1000 Free Conversations" status="active" />
             <OfferList text="Shared Inbox" status="active" />
             <OfferList text="Free Integrations" status="active" />
@@ -337,6 +425,27 @@ const Pricing = () => {
             />
             <OfferList text="Number Managerment - included" status="active" />
             <OfferList text="On Site Support - Custom" status="active" /> */}
+          </PricingBox>
+          <PricingBox
+            packageName="Custom"
+            //price={isMonthly ? "$199" : "$2388"}
+            //duration={isMonthly ? "/mo" : "/mo"}
+            subtitle="Users (Upto) - 15"
+            subtitle1="Role Management Custom"
+            planType="custom"
+          >
+            <OfferList
+              text="Dedicated Relationship Manager - $89 (for queries, issue handling, users training)"
+              status="active"
+            />
+            <OfferList
+              text="Designing service - $119 (weekly 2 templates, 1 chatbot)"
+              status="active"
+            />
+            <OfferList
+              text="Marketing service - $179 (weekly 2 posts, 3 stories on all social media platforms)"
+              status="active"
+            />
           </PricingBox>
         </div>
         <div className="w-full pt-[110px]">

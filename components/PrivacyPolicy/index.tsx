@@ -6,11 +6,11 @@ const PrivacyPolicy = () => {
           Hellofy respects your privacy and values your trust upon us.{" "}
         </p>
         <p className="text-paragraph">
-          <strong>LNH INFOTECH PRIVATE LIMITED</strong> the owner and operator
-          of <strong>Hellofy Platform</strong> and its affiliates, provide
-          services and information contained on the platform to users subject to
-          this privacy policy and any other relevant terms and conditions and
-          notices which may be applicable to a specific section or module of the
+          <strong>HELLOFY LLC</strong> the owner and operator of{" "}
+          <strong>Hellofy Platform</strong> and its affiliates, provide services
+          and information contained on the platform to users subject to this
+          privacy policy and any other relevant terms and conditions and notices
+          which may be applicable to a specific section or module of the
           platform.{" "}
         </p>
         <p className="text-paragraph">
@@ -264,8 +264,8 @@ const PrivacyPolicy = () => {
                 permission; or To help investigate, prevent, or act regarding
                 unlawful and illegal activities, suspected fraud, including
                 cyber incidents potential threat, punishment of offences and to
-                the safety or security of any person, violations of LNH's terms
-                of use or to defend against legal claims; or
+                the safety or security of any person, violations of HELLOFY's
+                terms of use or to defend against legal claims; or
               </li>
               <li>
                 Special circumstances such as compliance with subpoenas, court
@@ -401,8 +401,8 @@ const PrivacyPolicy = () => {
             information to such entities as required to provide Services to you,
             improve our Services, and to provide value-added services or other
             third-party products and services, to the extent permitted by
-            applicable law. These entities may be located outside India, which
-            you hereby consent to.
+            applicable law. These entities may be located outside UAE, which you
+            hereby consent to.
           </li>
           <li>
             We require such entities to protect your information through
@@ -526,7 +526,7 @@ const PrivacyPolicy = () => {
               <p>
                 <b>a.</b> As enumerated in Section 5 of the Act, through this
                 Privacy Policy, we hereby give Notice to you{" "}
-                <b>(“Data Principal”)</b> that we, LNH INFOTECH PRIVATE LIMITED{" "}
+                <b>(“Data Principal”)</b> that we, HELLOFY LLC{" "}
                 <b>(“Data Fiduciary”)</b> shall collect and process your Data,
                 anonymously, for the purpose and in manner as mentioned
                 hereinabove and by accepting the terms and conditions of this
@@ -539,9 +539,8 @@ const PrivacyPolicy = () => {
               <p>
                 <b>b.</b> Further, you hereby acknowledge that your acceptance
                 of the terms and conditions as mentioned in this Policy shall be
-                construed as the clear and specific Notice given by LNH INFOTECH
-                PRIVATE LIMITED, for processing your Data, as per the provisions
-                of the Act.
+                construed as the clear and specific Notice given by HELLOFY LLC
+                , for processing your Data, as per the provisions of the Act.
               </p>
             </li>
             <li>
@@ -571,10 +570,9 @@ const PrivacyPolicy = () => {
             <li>
               <p>
                 <b>e.</b> It may be noted that upon being in receipt of consent
-                withdrawal application, we, LNH INFOTECH PRIVATE LIMITED (Data
-                Fiduciary), shall process such request within a reasonable time
-                and shall refrain from processing your Data within a reasonable
-                time.
+                withdrawal application, we, HELLOFY LLC (Data Fiduciary), shall
+                process such request within a reasonable time and shall refrain
+                from processing your Data within a reasonable time.
               </p>
             </li>
             <li>
@@ -603,8 +601,8 @@ const PrivacyPolicy = () => {
                 <b>h.</b> For any grievance, complaints, withdrawal of consent,
                 etc. regarding your Data being collected and processed, please
                 send an email to{" "}
-                <a href="mailto:support@hellofy.io" className="text-primary">
-                  support@hellofy.io
+                <a href="mailto:support@hellofy.ai" className="text-primary">
+                  support@hellofy.ai
                 </a>
               </p>
             </li>
